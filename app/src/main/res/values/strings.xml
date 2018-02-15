@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Single Screen App</string>
+    <string name="name">The Coffee Shop</string>
+    <string name="street">Coffee Street 21</string>
+    <string name="town">Coffee Town</string>
+    <string name="phone">123 456 7890</string>
+    <string name="web">www.thecoffeeshop.com</string>
+    <string name="description">Best Coffee in Town!</string>
+</resources>

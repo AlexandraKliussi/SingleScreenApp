@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/photo_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:paddingTop="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/coffeeshop" />
+    <TextView
+        android:id="@+id/text_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/text_view2"
+        android:fontFamily="serif-monospace"
+        android:paddingLeft="10dp"
+        android:text="@string/name"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/text_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/text_view3"
+        android:fontFamily="serif-monospace"
+        android:paddingLeft="10dp"
+        android:text="@string/street"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/text_view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/text_view4"
+        android:fontFamily="serif-monospace"
+        android:paddingLeft="10dp"
+        android:text="@string/town"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/text_view4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/text_view5"
+        android:fontFamily="serif-monospace"
+        android:paddingLeft="10dp"
+        android:text="@string/phone"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/text_view5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/text_view6"
+        android:fontFamily="serif-monospace"
+        android:paddingLeft="10dp"
+        android:text="@string/web"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/text_view6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="serif-monospace"
+        android:paddingLeft="10dp"
+        android:text="@string/description"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+    <ImageView
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_marginRight="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/coffeemug" />
+</RelativeLayout>
